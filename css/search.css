@@ -1,0 +1,262 @@
+<style>
+  .box
+  {
+   width:800px;
+   margin:0 auto;
+  }
+
+
+.btn {
+  background-color: #659BBD;
+  border: none;
+  color: white;
+  padding: 12px 16px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/* Darker background on mouse-over */
+.btn:hover {
+  background-color: #101A23;
+  color: white;
+}
+
+  .oopis
+  {
+    float: right;
+    width: 300px; 
+    margin-right: 40px; 
+    padding-right: 50px;
+  }
+
+  /*alert*/
+.alert {
+  padding: 20px;
+  background-color: #f44336;
+  color: white;
+  opacity: 1;
+  transition: opacity 0.6s;
+  margin-bottom: 15px;
+}
+
+.alert.success {background-color: #4CAF50;
+  height: 15px;
+  }
+.alert.warning {background-color: #ff9800;
+  height: 15px;
+  }
+
+.closebtn {
+  margin-left: 15px;
+  color: white;
+  font-weight: bold;
+  float: right;
+  font-size: 22px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.palerts
+{
+  margin-top: 0px;
+}
+
+.error {color: #FF0000;}
+
+
+  .active_tab1
+  {
+   background-color:#fff;
+   color:#333;
+   font-weight: 600;
+  }
+  .inactive_tab1
+  {
+   background-color: #f5f5f5;
+   color: #333;
+   cursor: not-allowed;
+  }
+  .has-error
+  {
+   border-color:#cc0000;
+   background-color:#ffff99;
+  }
+  .column-66 {
+  float: left;
+  width: 50%;
+  padding: 20px;
+}
+
+.column-33 {
+  float: left;
+  width: 50%;
+  padding: 20px;
+}
+
+
+#searchcustom ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 98.8%;
+}
+
+#searchcustom li {
+  float: left;
+}
+
+#searchcustom li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+#searchcustom li a:hover:not(.active) {
+  background-color: orange;
+}
+
+
+.container{
+  margin-top: 130px;
+}
+.active {
+  background-color: orange;
+}
+.imgtitle
+  {
+      background-image: url("/filmeto/images/back.jpg");
+
+      height:80px;
+      width: 98.8%;
+      /* Center and scale the image nicely */
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      position: fixed;
+      margin-top: -14px;
+  }
+
+@media screen and (max-width: 1000px) {
+  .column-66,
+  .column-33 {
+    width: 100%;
+    text-align: center;
+  }
+
+
+  .oopis
+    {
+      
+    float: right;
+    width: 480px; 
+    margin-right: 178px; 
+    padding-right: 50px;
+    }
+  img {
+    margin: auto;
+  }
+  /*alert*/
+.alert {
+  padding: 20px;
+  background-color: #f44336;
+  color: white;
+  opacity: 1;
+  transition: opacity 0.6s;
+  margin-bottom: 15px;
+}
+  .alert.success {background-color: #4CAF50;
+  height: 15px;
+  width: 100%;
+  }
+  .alert.warning {background-color: #ff9800;
+    height: 15px;
+    width: 100%;
+    }
+}
+input[type=text], select {
+  width: 50%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=time], select {
+  width: 50%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+#dddda {
+  width: 50%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+#dddd2 {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=select], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+
+input[type=password], select {
+  width: 50%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.subzero {
+  width: 100%;
+  background-color: #659BBD;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.subone
+{
+
+}
+
+input[type=submit]:hover {
+  background-color: #000000;
+}
+  </style>}
